@@ -1,0 +1,17 @@
+12:07:56.078 write character for 11:91:E8:3D:A6:42: service = f0080001-0451-4000-b000-000000000000, character = f0080003-0451-4000-b000-000000000000, value = E000
+12:07:56.078 safeInvoke method = public abstract void com.inuker.bluetooth.library.IBluetoothClient.write(java.lang.String,java.util.UUID,java.util.UUID,byte[],com.inuker.bluetooth.library.connect.response.BleWriteResponse), object = com.inuker.bluetooth.library.BluetoothClientImpl@4c5ae33
+12:07:56.079 safeCallBluetoothApi code = 4
+12:07:56.079 getBluetoothService
+12:07:56.079 IBluetoothService = com.inuker.bluetooth.library.BluetoothServiceImpl@c5eb0ab
+12:07:56.095 safeInvoke method = public abstract void com.inuker.bluetooth.library.connect.IBleConnectMaster.write(java.util.UUID,java.util.UUID,byte[],com.inuker.bluetooth.library.connect.response.BleGeneralResponse), object = com.inuker.bluetooth.library.connect.BleConnectMaster@840aa4d
+12:07:56.099 Process BleWriteRequest, status = Service Ready
+12:07:56.100 writeCharacteristic for 11:91:E8:3D:A6:42: service = 0xf0080001-0451-4000-b000-000000000000, character = 0xf0080003-0451-4000-b000-000000000000, value = 0xE000
+12:07:56.103 safeInvoke method = public abstract void com.inuker.bluetooth.library.connect.listener.IBluetoothGattResponse.onCharacteristicWrite(android.bluetooth.BluetoothGattCharacteristic,int,byte[]), object = com.inuker.bluetooth.library.connect.BleConnectWorker@1661c50
+12:07:56.104 onCharacteristicWrite for 11:91:E8:3D:A6:42: status = 0, service = 0xf0080001-0451-4000-b000-000000000000, character = 0xf0080003-0451-4000-b000-000000000000, value = E000
+12:07:56.104 BleWriteRequest 11:91:E8:3D:A6:42 >>> request complete: code = 0
+12:07:56.104 safeInvoke method = public abstract void com.veepoo.protocol.listener.base.IBleWriteResponse.onResponse(int), object = com.veepoo.protocol.VPOperateManager$vp_n@bda3989
+12:07:56.792 safeInvoke method = public abstract void com.inuker.bluetooth.library.connect.listener.IBluetoothGattResponse.onCharacteristicChanged(android.bluetooth.BluetoothGattCharacteristic,byte[]), object = com.inuker.bluetooth.library.connect.BleConnectWorker@1661c50
+12:07:56.799 onCharacteristicChanged for 11:91:E8:3D:A6:42: value = E000000000000000000000000000000000000000, service = 0xf0080001-0451-4000-b000-000000000000, character = 0xf0080002-0451-4000-b000-000000000000
+12:07:56.820 BluetoothReceiver onReceive: action.character_changed
+12:07:56.827 safeInvoke method = public abstract void com.inuker.bluetooth.library.connect.response.BleNotifyResponse.onNotify(java.util.UUID,java.util.UUID,byte[]), object = com.veepoo.protocol.VPOperateManager$vp_v@897330b
+12:08:00.551 onConnectionUpdated() - device=XX:XX:XX:XX:A6:42 interval=48 latency=0 timeout=500 status=0

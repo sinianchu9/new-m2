@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_connect"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="连接" />
+    <item
+        android:id="@+id/nav_health_data"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="健康数据" />
+    <item
+        android:id="@+id/nav_reminder"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="自觉提醒" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="设置" />
+</menu>

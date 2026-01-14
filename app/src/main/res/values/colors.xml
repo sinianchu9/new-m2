@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ecg_line">#FC5F64</color>
+    <color name="ecg_line_bg_bold">#66333333</color>
+    <color name="ecg_line_bg_normal">#10666666</color>
+    <color name="divider_color">#B7B2B2</color>
+    <color name="real_red">#f00</color>
+    <color name="black_30">#4B000000</color>
+    <color name="page_bg">#F5F6F7</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#E3E5E8</color>
+    <color name="divider_soft">#EEF0F2</color>
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="button_primary">#2F3133</color>
+    <color name="button_secondary">#F1F2F3</color>
+    <color name="button_disabled">#C9CDD2</color>
+    <color name="signal_on">#2F3133</color>
+    <color name="signal_off">#C9CDD2</color>
+    
+    <!-- 新增导航与卡片颜色 -->
+    <color name="bg_card">#FFFFFF</color>
+</resources>
